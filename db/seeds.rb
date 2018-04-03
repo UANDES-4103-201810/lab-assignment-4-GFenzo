@@ -10,8 +10,8 @@ user_1 = User.create(name: 'Francisco', last_name: 'Borie', email: 'fjborie@miua
 user_2 = User.create(name: 'Diego', last_name: 'Beckdorf', email: 'dbeckdorf@miuandes.cl', phone: 987654321, password: 'password.123', address: 'San Carlos de Apoquindo 2200')
 user_3 = User.create(name: 'Maximiliano', last_name: 'Garcia', email: 'mrgarcia1@miuandes.cl', phone: 987654321, password: 'password.123', address: 'San Carlos de Apoquindo 2200')
 
-place_1 = Place.create(name: 'Estadio Nacional', address:'Av. Grecia 2001', capacity: 50000)
-place_2 = Place.create(name: 'Teatro Caupolican', address:'San Diego 850', capacity: 5000)
+place_1 = Place.create(name: 'Estadio Nacionalasdasfasfasa', address:'Av. Grecia 2001', capacity: 50000)
+place_2 = Place.create(name: 'Teatro Caupolicanasdasdasdasda', address:'San Diego 850', capacity: 5000)
 
 
 event_1 = Event.create(name: 'ICPC 2018', start_date: DateTime.new(2018, 05, 15), place: place_1)
